@@ -1,0 +1,39 @@
+
+
+#home{
+    background-color: #000000;
+    color: white;
+    height: 50vh;
+}
+#home a{
+    color: white;
+}
+.navbar-brand img{
+    height: 30px;
+}
+.navbar-toggler img{
+    height: 20px;
+}
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+     border: none;
+  }
+.homecontent{
+    position: relative;
+}
+#navbarNav{
+    position: absolute;
+    top: 85%;
+}
+#info{
+    height: 50vh;
+    background-color: white;
+}
+#services{
+ height: 100vh;   
+}
+
+.card-text{
+    font-size: 8px;
+}
