@@ -1,27 +1,73 @@
-
-
+*{ font-family: 'Raleway', sans-serif; !important}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.5px;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.jumbotron{
+    margin: 0;
+}
 #home{
     background-color: #000000;
     color: white;
-    height: 50vh;
+    height: 70vh;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
 }
-#home a{
-    color: white;
+#home a {
+    color:  white;
 }
+.homecontent h3{
+    letter-spacing: 16px;
+}
+.homecontent h6{
+    margin: 30px 0 0 0;
+    letter-spacing: 4px;
+}
+
+.homecontent .btn{
+    color: black !important; 
+    width: 170px;
+    height: 45px;
+    background-color: #ffe500;
+    font-weight: bold;
+    margin-top: 30px;
+    letter-spacing: 2.5px;
+    padding: 0;
+    line-height: 45px;
+}
+
+.homecontent .btn:hover{
+    
+       background-color: #ffe500;
+}
+
 .navbar-brand img{
     height: 30px;
 }
 .navbar-toggler img{
     height: 20px;
+    
 }
+
 .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
     box-shadow: none;
      border: none;
+      color: #ffe500;
   }
 .homecontent{
     position: relative;
 }
+
 #navbarNav{
     position: absolute;
     top: 85%;
@@ -31,9 +77,295 @@
     background-color: white;
 }
 #services{
- height: 100vh;   
+ height: 90vh;  
+    margin: 0;
+}
+.title{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.contentWrap{
+        margin: 40px 0 0 0;
+}
+.contentWrap p{
+    padding: 0 15%;
+}
+.services .card-text{
+    font-size: 10px;
+    text-align: center;
+}
+.services .card{
+    width: 290px;
+    height: 300px;
+}
+.services .card-img{
+    padding-top: 20px; 
+}
+.services .card-title{
+    padding-top: 10px;
+}
+.services .card-feature{
+    background-color: white;
+    height: 160px;
+    width: 100%;
+    margin-top: 20px;
+}
+.divedeF{
+    height: 32%;
+}
+.divedeF label{
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.progress{
+    height: 7px;
+    border-radius: 0;
+    margin: 0 10px 0 10px;
+}
+#projects{
+    background-color: #000000;
+    height: 20vh;
+    width: 100%;
+}
+.project{
+    background-color: white;
+    height: 8vh;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 20px;
+      margin-top: 6vh;
+}
+/* --- Portfolio --- */
+#portfolio
+{
+    height: 100%;
+    padding: 0;
+    background-color: white;
 }
 
-.card-text{
-    font-size: 8px;
+#portfolio a{
+    background-color: #ffe500;
+    border-radius: 0;
+    width: 250px;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    line-height: 45px;
+    font-weight: bold;
+    
+}
+.menuP{
+    margin: 100px 0;
+   
+}
+.menuPortfolio p{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 12px;
+    margin: 0;
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+}
+.logoPortfolio{
+  margin-top: -20px;
+}
+.logoPortfolio img{
+     height: 100px;
+}
+.linkPortfolio{
+    margin-bottom: 100px;
+}
+
+.works,
+.works .row{
+    margin: 0;
+    padding: 0;
+}
+
+.workImgFirst,
+.workImgSecond,
+.workImgThird,
+.workImgFourth,
+.workImgFifth,
+.workImgSixth
+{
+    background-size: cover;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.workImgFirst{ background-image: url(img/1.jpg)}
+.workImgSecond { background-image: url(img/2.jpg)}
+.workImgThird { background-image: url(img/3.jpg)}
+.workImgFourth { background-image: url(img/4.jpg)}
+.workImgFifth { background-image: url(img/5.jpg)}
+.workImgSixth { background-image: url(img/6.jpg)}
+
+
+/* VIDEO */ 
+#video{
+    margin: 0;
+    padding: 0;
+    height: 380px;
+    position: relative;
+      background-image: url(img/jonathan-riley.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 17%;  
+}
+#video::before{
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+ background: #000;
+    opacity: 0.85;
+}
+
+#video .btn{
+    width: 360px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#video .btn a{
+     line-height: 80px;
+     font-weight: bold;
+     border: 2px solid #ffe500;
+     transition: 0.5s;
+     color: #ffe500;
+     position: relative;
+}
+#video .btn a:hover{
+   background-color: #ffe500;
+    color: #000000;
+}
+
+/* TEAM */ 
+#team .card{
+    height: 100%;
+    width: 270px;
+   box-shadow: 3px 2px rgba(255, 229, 0, 0.8);
+    padding: 0;
+    margin: 0 0 276px 0;
+}
+
+
+#team  .card-img-top{
+    position: relative;
+}
+#team  .card-img-top img{
+    height: 350px;
+}
+#team .card-title{
+    background-color: rgba(255, 229, 0, 0.8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#team .card-title p{
+    opacity: 1;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+}
+/* ABOUT US */ 
+#aboutUs{
+ position: static;
+   font-family: 'EB Garamond' !important;
+     font-size: 12px;
+    margin-bottom: 200px;
+}
+.aboutLine{
+    background-color: #ffe500;
+    height: 210px;
+    /*position: absolute;*/
+}
+.about{ position: absolute;}
+.about:first-child{
+   
+    top: -185px;
+    left: 360px;
+}
+.about:last-child{
+    bottom: -185px;
+    right: 360px;
+}
+.aboutBox{
+    color: white;
+    background-color: #1a1a1a;
+    height: 375px;
+    width: 570px;
+    padding: 55px 72px;
+}
+.aboutBox:last-child{
+    background-image: url(img/campaign-creators.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.quote{
+    width: 570px;
+    margin: 0;
+    padding: 0;
+}
+
+.first p{
+    padding: 50px 0 0 150px;
+    margin: 0;
+}
+
+.second p{
+   padding: 0 100px 50px 50px;
+    margin: 0;
+}
+/* FOOTER */
+#footer{
+    color: white;
+    background-color: #1a1a1a;
+    padding-top: 50px;
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 240px;
+}
+
+#footer label{
+    font-size: 15px;
+}
+#footer li{
+    list-style-type: none;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#footer img{
+    height: 50px;
+    margin: 0 0 30px 15px
+}
+#footer .btn{
+    background-color: #ffe500;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    width: 375px;
+    height: 45px;
+    border-radius: 25px;
+    padding: 0;
+    line-height: 45px;
+}
+.contactP{
+    width: 375px;
+   
+}
+#links, #aboutUsFooter{
+    padding: 0;
 }
